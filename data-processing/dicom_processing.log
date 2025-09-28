@@ -1,0 +1,578 @@
+2025-08-15 01:34:39,194 - INFO - Found 11 patients to process
+2025-08-15 01:35:21,898 - INFO - Found 11 patients to process
+2025-08-15 01:35:21,914 - INFO - 
+=== Processing Patient: RS059 ===
+2025-08-15 01:35:22,088 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014102314114135900000321', '1.3.12.2.1107.5.1.4.48450.30000014102314114135900000511', '1.3.12.2.1107.5.1.4.48450.30000014102314241568700000011', '1.3.12.2.1107.5.1.4.48450.30000014102314522904600000095')
+2025-08-15 01:35:22,189 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014102314114135900000321: 189 files -> CT2
+2025-08-15 01:35:22,286 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014102314114135900000511: 1 files -> CT501
+2025-08-15 01:35:22,389 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014102314241568700000011: 1 files -> CT1
+2025-08-15 01:35:22,490 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014102314522904600000095: 574 files -> CT3
+2025-08-15 01:35:22,490 - INFO - 
+Processing phase: CT2 (189 files)
+2025-08-15 01:35:22,593 - INFO - Loaded image: (512, 512, 189) voxels
+2025-08-15 01:35:22,593 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:22,616 - INFO - Original image shape: (189, 512, 512)
+2025-08-15 01:35:22,616 - INFO - Left shape: (189, 512, 256), Right shape: (189, 512, 256)
+2025-08-15 01:35:22,650 - INFO - Saving 189 slices for RS059 CT2 left
+2025-08-15 01:35:22,651 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,165 - INFO - Saved 189 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_left/CT2
+2025-08-15 01:35:23,165 - INFO - Saving 189 slices for RS059 CT2 right
+2025-08-15 01:35:23,165 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,692 - INFO - Saved 189 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_right/CT2
+2025-08-15 01:35:23,692 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:23,694 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:23,694 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:23,694 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:23,694 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:23,695 - INFO - Saving 1 slices for RS059 CT501 left
+2025-08-15 01:35:23,695 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,697 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_left/CT501
+2025-08-15 01:35:23,698 - INFO - Saving 1 slices for RS059 CT501 right
+2025-08-15 01:35:23,698 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,700 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_right/CT501
+2025-08-15 01:35:23,700 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:23,702 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:23,702 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:23,702 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:23,702 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:23,702 - INFO - Saving 1 slices for RS059 CT1 left
+2025-08-15 01:35:23,702 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,705 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_left/CT1
+2025-08-15 01:35:23,706 - INFO - Saving 1 slices for RS059 CT1 right
+2025-08-15 01:35:23,706 - INFO - Extracting metadata from image
+2025-08-15 01:35:23,710 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_right/CT1
+2025-08-15 01:35:23,710 - INFO - 
+Processing phase: CT3 (574 files)
+2025-08-15 01:35:24,039 - INFO - Loaded image: (512, 512, 574) voxels
+2025-08-15 01:35:24,039 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:24,101 - INFO - Original image shape: (574, 512, 512)
+2025-08-15 01:35:24,101 - INFO - Left shape: (574, 512, 256), Right shape: (574, 512, 256)
+2025-08-15 01:35:24,204 - INFO - Saving 574 slices for RS059 CT3 left
+2025-08-15 01:35:24,204 - INFO - Extracting metadata from image
+2025-08-15 01:35:25,776 - INFO - Saved 574 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_left/CT3
+2025-08-15 01:35:25,776 - INFO - Saving 574 slices for RS059 CT3 right
+2025-08-15 01:35:25,776 - INFO - Extracting metadata from image
+2025-08-15 01:35:27,358 - INFO - Saved 574 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RS059_right/CT3
+2025-08-15 01:35:27,359 - INFO - Validation for RS059:
+2025-08-15 01:35:27,359 - INFO -   Original DICOM files: 765
+2025-08-15 01:35:27,359 - INFO -   Processed DICOM files: 1530
+2025-08-15 01:35:27,359 - INFO -   Expected after split: 1530
+2025-08-15 01:35:27,359 - INFO -   Match: ✓
+2025-08-15 01:35:27,359 - INFO - 
+=== Processing Patient: SB032 ===
+2025-08-15 01:35:27,459 - INFO - Found 2 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000013121214195275000000231', '1.3.12.2.1107.5.1.4.48450.30000013121215023206200000102')
+2025-08-15 01:35:27,551 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013121214195275000000231: 182 files -> CT2
+2025-08-15 01:35:27,646 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013121215023206200000102: 552 files -> CT3
+2025-08-15 01:35:27,647 - INFO - 
+Processing phase: CT2 (182 files)
+2025-08-15 01:35:27,747 - INFO - Loaded image: (512, 512, 182) voxels
+2025-08-15 01:35:27,747 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:27,765 - INFO - Original image shape: (182, 512, 512)
+2025-08-15 01:35:27,765 - INFO - Left shape: (182, 512, 256), Right shape: (182, 512, 256)
+2025-08-15 01:35:27,796 - INFO - Saving 182 slices for SB032 CT2 left
+2025-08-15 01:35:27,796 - INFO - Extracting metadata from image
+2025-08-15 01:35:28,290 - INFO - Saved 182 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SB032_left/CT2
+2025-08-15 01:35:28,290 - INFO - Saving 182 slices for SB032 CT2 right
+2025-08-15 01:35:28,290 - INFO - Extracting metadata from image
+2025-08-15 01:35:28,827 - INFO - Saved 182 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SB032_right/CT2
+2025-08-15 01:35:28,827 - INFO - 
+Processing phase: CT3 (552 files)
+2025-08-15 01:35:29,137 - INFO - Loaded image: (512, 512, 552) voxels
+2025-08-15 01:35:29,139 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:29,194 - INFO - Original image shape: (552, 512, 512)
+2025-08-15 01:35:29,194 - INFO - Left shape: (552, 512, 256), Right shape: (552, 512, 256)
+2025-08-15 01:35:29,294 - INFO - Saving 552 slices for SB032 CT3 left
+2025-08-15 01:35:29,294 - INFO - Extracting metadata from image
+2025-08-15 01:35:30,846 - INFO - Saved 552 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SB032_left/CT3
+2025-08-15 01:35:30,847 - INFO - Saving 552 slices for SB032 CT3 right
+2025-08-15 01:35:30,847 - INFO - Extracting metadata from image
+2025-08-15 01:35:32,333 - INFO - Saved 552 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SB032_right/CT3
+2025-08-15 01:35:32,334 - INFO - Validation for SB032:
+2025-08-15 01:35:32,334 - INFO -   Original DICOM files: 734
+2025-08-15 01:35:32,334 - INFO -   Processed DICOM files: 1468
+2025-08-15 01:35:32,334 - INFO -   Expected after split: 1468
+2025-08-15 01:35:32,334 - INFO -   Match: ✓
+2025-08-15 01:35:32,334 - INFO - 
+=== Processing Patient: TW057 ===
+2025-08-15 01:35:32,440 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014090814362793700000256', '1.3.12.2.1107.5.1.4.48450.30000014090814362793700000441', '1.3.12.2.1107.5.1.4.48450.30000014090814465664000000005', '1.3.12.2.1107.5.1.4.48450.30000014090814492989000000041')
+2025-08-15 01:35:32,542 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014090814362793700000256: 184 files -> CT2
+2025-08-15 01:35:32,637 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014090814362793700000441: 1 files -> CT501
+2025-08-15 01:35:32,744 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014090814465664000000005: 1 files -> CT1
+2025-08-15 01:35:32,865 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014090814492989000000041: 557 files -> CT3
+2025-08-15 01:35:32,866 - INFO - 
+Processing phase: CT2 (184 files)
+2025-08-15 01:35:32,965 - INFO - Loaded image: (512, 512, 184) voxels
+2025-08-15 01:35:32,965 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:32,980 - INFO - Original image shape: (184, 512, 512)
+2025-08-15 01:35:32,980 - INFO - Left shape: (184, 512, 256), Right shape: (184, 512, 256)
+2025-08-15 01:35:33,012 - INFO - Saving 184 slices for TW057 CT2 left
+2025-08-15 01:35:33,012 - INFO - Extracting metadata from image
+2025-08-15 01:35:33,525 - INFO - Saved 184 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_left/CT2
+2025-08-15 01:35:33,526 - INFO - Saving 184 slices for TW057 CT2 right
+2025-08-15 01:35:33,526 - INFO - Extracting metadata from image
+2025-08-15 01:35:34,027 - INFO - Saved 184 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_right/CT2
+2025-08-15 01:35:34,027 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:34,030 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:34,030 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:34,030 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:34,030 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:34,031 - INFO - Saving 1 slices for TW057 CT501 left
+2025-08-15 01:35:34,031 - INFO - Extracting metadata from image
+2025-08-15 01:35:34,034 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_left/CT501
+2025-08-15 01:35:34,034 - INFO - Saving 1 slices for TW057 CT501 right
+2025-08-15 01:35:34,034 - INFO - Extracting metadata from image
+2025-08-15 01:35:34,037 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_right/CT501
+2025-08-15 01:35:34,037 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:34,038 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:34,039 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:34,039 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:34,039 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:34,039 - INFO - Saving 1 slices for TW057 CT1 left
+2025-08-15 01:35:34,039 - INFO - Extracting metadata from image
+2025-08-15 01:35:34,042 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_left/CT1
+2025-08-15 01:35:34,042 - INFO - Saving 1 slices for TW057 CT1 right
+2025-08-15 01:35:34,042 - INFO - Extracting metadata from image
+2025-08-15 01:35:34,047 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_right/CT1
+2025-08-15 01:35:34,047 - INFO - 
+Processing phase: CT3 (557 files)
+2025-08-15 01:35:34,368 - INFO - Loaded image: (512, 512, 557) voxels
+2025-08-15 01:35:34,368 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:34,431 - INFO - Original image shape: (557, 512, 512)
+2025-08-15 01:35:34,432 - INFO - Left shape: (557, 512, 256), Right shape: (557, 512, 256)
+2025-08-15 01:35:34,526 - INFO - Saving 557 slices for TW057 CT3 left
+2025-08-15 01:35:34,526 - INFO - Extracting metadata from image
+2025-08-15 01:35:36,112 - INFO - Saved 557 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_left/CT3
+2025-08-15 01:35:36,113 - INFO - Saving 557 slices for TW057 CT3 right
+2025-08-15 01:35:36,113 - INFO - Extracting metadata from image
+2025-08-15 01:35:37,606 - INFO - Saved 557 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW057_right/CT3
+2025-08-15 01:35:37,607 - INFO - Validation for TW057:
+2025-08-15 01:35:37,607 - INFO -   Original DICOM files: 743
+2025-08-15 01:35:37,607 - INFO -   Processed DICOM files: 1486
+2025-08-15 01:35:37,607 - INFO -   Expected after split: 1486
+2025-08-15 01:35:37,607 - INFO -   Match: ✓
+2025-08-15 01:35:37,607 - INFO - 
+=== Processing Patient: RP036 ===
+2025-08-15 01:35:37,679 - INFO - Found 2 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000013112514205575000000284', '1.3.12.2.1107.5.1.4.48450.30000013112515014898400000100')
+2025-08-15 01:35:37,742 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112514205575000000284: 169 files -> CT2
+2025-08-15 01:35:37,819 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112515014898400000100: 290 files -> CT3
+2025-08-15 01:35:37,819 - INFO - 
+Processing phase: CT2 (169 files)
+2025-08-15 01:35:37,907 - INFO - Loaded image: (512, 512, 169) voxels
+2025-08-15 01:35:37,908 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:37,926 - INFO - Original image shape: (169, 512, 512)
+2025-08-15 01:35:37,927 - INFO - Left shape: (169, 512, 256), Right shape: (169, 512, 256)
+2025-08-15 01:35:37,955 - INFO - Saving 169 slices for RP036 CT2 left
+2025-08-15 01:35:37,955 - INFO - Extracting metadata from image
+2025-08-15 01:35:38,469 - INFO - Saved 169 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RP036_left/CT2
+2025-08-15 01:35:38,469 - INFO - Saving 169 slices for RP036 CT2 right
+2025-08-15 01:35:38,470 - INFO - Extracting metadata from image
+2025-08-15 01:35:38,972 - INFO - Saved 169 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RP036_right/CT2
+2025-08-15 01:35:38,972 - INFO - 
+Processing phase: CT3 (290 files)
+2025-08-15 01:35:39,137 - INFO - Loaded image: (512, 512, 290) voxels
+2025-08-15 01:35:39,137 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:39,163 - INFO - Original image shape: (290, 512, 512)
+2025-08-15 01:35:39,163 - INFO - Left shape: (290, 512, 256), Right shape: (290, 512, 256)
+2025-08-15 01:35:39,211 - INFO - Saving 290 slices for RP036 CT3 left
+2025-08-15 01:35:39,211 - INFO - Extracting metadata from image
+2025-08-15 01:35:39,976 - INFO - Saved 290 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RP036_left/CT3
+2025-08-15 01:35:39,977 - INFO - Saving 290 slices for RP036 CT3 right
+2025-08-15 01:35:39,977 - INFO - Extracting metadata from image
+2025-08-15 01:35:40,740 - INFO - Saved 290 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RP036_right/CT3
+2025-08-15 01:35:40,740 - INFO - Validation for RP036:
+2025-08-15 01:35:40,740 - INFO -   Original DICOM files: 459
+2025-08-15 01:35:40,740 - INFO -   Processed DICOM files: 918
+2025-08-15 01:35:40,740 - INFO -   Expected after split: 918
+2025-08-15 01:35:40,740 - INFO -   Match: ✓
+2025-08-15 01:35:40,740 - INFO - 
+=== Processing Patient: RB051 ===
+2025-08-15 01:35:40,784 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014073114194073400000320', '1.3.12.2.1107.5.1.4.48450.30000014073114194073400000496', '1.3.12.2.1107.5.1.4.48450.30000014073114293696800000011', '1.3.12.2.1107.5.1.4.48450.30000014073114490678100000099')
+2025-08-15 01:35:40,837 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014073114194073400000320: 175 files -> CT2
+2025-08-15 01:35:40,880 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014073114194073400000496: 1 files -> CT501
+2025-08-15 01:35:40,920 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014073114293696800000011: 1 files -> CT1
+2025-08-15 01:35:40,981 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014073114490678100000099: 119 files -> CT3
+2025-08-15 01:35:40,981 - INFO - 
+Processing phase: CT2 (175 files)
+2025-08-15 01:35:41,131 - INFO - Loaded image: (512, 512, 175) voxels
+2025-08-15 01:35:41,131 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:41,148 - INFO - Original image shape: (175, 512, 512)
+2025-08-15 01:35:41,148 - INFO - Left shape: (175, 512, 256), Right shape: (175, 512, 256)
+2025-08-15 01:35:41,169 - INFO - Saving 175 slices for RB051 CT2 left
+2025-08-15 01:35:41,169 - INFO - Extracting metadata from image
+2025-08-15 01:35:41,672 - INFO - Saved 175 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_left/CT2
+2025-08-15 01:35:41,672 - INFO - Saving 175 slices for RB051 CT2 right
+2025-08-15 01:35:41,672 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,138 - INFO - Saved 175 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_right/CT2
+2025-08-15 01:35:42,138 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:42,140 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:42,141 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:42,141 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:42,141 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:42,141 - INFO - Saving 1 slices for RB051 CT501 left
+2025-08-15 01:35:42,141 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,144 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_left/CT501
+2025-08-15 01:35:42,144 - INFO - Saving 1 slices for RB051 CT501 right
+2025-08-15 01:35:42,145 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,148 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_right/CT501
+2025-08-15 01:35:42,148 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:42,150 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:42,150 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:42,150 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:42,150 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:42,150 - INFO - Saving 1 slices for RB051 CT1 left
+2025-08-15 01:35:42,150 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,154 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_left/CT1
+2025-08-15 01:35:42,154 - INFO - Saving 1 slices for RB051 CT1 right
+2025-08-15 01:35:42,155 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,159 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_right/CT1
+2025-08-15 01:35:42,159 - INFO - 
+Processing phase: CT3 (119 files)
+2025-08-15 01:35:42,234 - INFO - Loaded image: (512, 512, 119) voxels
+2025-08-15 01:35:42,234 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:42,239 - INFO - Original image shape: (119, 512, 512)
+2025-08-15 01:35:42,239 - INFO - Left shape: (119, 512, 256), Right shape: (119, 512, 256)
+2025-08-15 01:35:42,255 - INFO - Saving 119 slices for RB051 CT3 left
+2025-08-15 01:35:42,255 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,600 - INFO - Saved 119 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_left/CT3
+2025-08-15 01:35:42,600 - INFO - Saving 119 slices for RB051 CT3 right
+2025-08-15 01:35:42,600 - INFO - Extracting metadata from image
+2025-08-15 01:35:42,916 - INFO - Saved 119 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RB051_right/CT3
+2025-08-15 01:35:42,917 - INFO - Validation for RB051:
+2025-08-15 01:35:42,917 - INFO -   Original DICOM files: 296
+2025-08-15 01:35:42,917 - INFO -   Processed DICOM files: 592
+2025-08-15 01:35:42,917 - INFO -   Expected after split: 592
+2025-08-15 01:35:42,917 - INFO -   Match: ✓
+2025-08-15 01:35:42,917 - INFO - 
+=== Processing Patient: SL043 ===
+2025-08-15 01:35:43,030 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014011314215057800000675', '1.3.12.2.1107.5.1.4.48450.30000014011314215057800000843', '1.3.12.2.1107.5.1.4.48450.30000014011314375335900000017', '1.3.12.2.1107.5.1.4.48450.30000014011314393400000001689')
+2025-08-15 01:35:43,122 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014011314215057800000675: 167 files -> CT2
+2025-08-15 01:35:43,207 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014011314215057800000843: 1 files -> CT501
+2025-08-15 01:35:43,300 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014011314375335900000017: 1 files -> CT1
+2025-08-15 01:35:43,395 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014011314393400000001689: 508 files -> CT3
+2025-08-15 01:35:43,395 - INFO - 
+Processing phase: CT2 (167 files)
+2025-08-15 01:35:43,479 - INFO - Loaded image: (512, 512, 167) voxels
+2025-08-15 01:35:43,479 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:43,490 - INFO - Original image shape: (167, 512, 512)
+2025-08-15 01:35:43,490 - INFO - Left shape: (167, 512, 256), Right shape: (167, 512, 256)
+2025-08-15 01:35:43,520 - INFO - Saving 167 slices for SL043 CT2 left
+2025-08-15 01:35:43,520 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,036 - INFO - Saved 167 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_left/CT2
+2025-08-15 01:35:44,037 - INFO - Saving 167 slices for SL043 CT2 right
+2025-08-15 01:35:44,037 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,513 - INFO - Saved 167 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_right/CT2
+2025-08-15 01:35:44,513 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:44,516 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:44,516 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:44,516 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:44,516 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:44,516 - INFO - Saving 1 slices for SL043 CT501 left
+2025-08-15 01:35:44,516 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,520 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_left/CT501
+2025-08-15 01:35:44,520 - INFO - Saving 1 slices for SL043 CT501 right
+2025-08-15 01:35:44,520 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,523 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_right/CT501
+2025-08-15 01:35:44,523 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:44,524 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:44,524 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:44,524 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:44,524 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:44,524 - INFO - Saving 1 slices for SL043 CT1 left
+2025-08-15 01:35:44,524 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,527 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_left/CT1
+2025-08-15 01:35:44,527 - INFO - Saving 1 slices for SL043 CT1 right
+2025-08-15 01:35:44,527 - INFO - Extracting metadata from image
+2025-08-15 01:35:44,531 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_right/CT1
+2025-08-15 01:35:44,531 - INFO - 
+Processing phase: CT3 (508 files)
+2025-08-15 01:35:44,810 - INFO - Loaded image: (512, 512, 508) voxels
+2025-08-15 01:35:44,810 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:44,866 - INFO - Original image shape: (508, 512, 512)
+2025-08-15 01:35:44,866 - INFO - Left shape: (508, 512, 256), Right shape: (508, 512, 256)
+2025-08-15 01:35:44,962 - INFO - Saving 508 slices for SL043 CT3 left
+2025-08-15 01:35:44,962 - INFO - Extracting metadata from image
+2025-08-15 01:35:46,333 - INFO - Saved 508 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_left/CT3
+2025-08-15 01:35:46,333 - INFO - Saving 508 slices for SL043 CT3 right
+2025-08-15 01:35:46,333 - INFO - Extracting metadata from image
+2025-08-15 01:35:47,685 - INFO - Saved 508 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL043_right/CT3
+2025-08-15 01:35:47,686 - INFO - Validation for SL043:
+2025-08-15 01:35:47,686 - INFO -   Original DICOM files: 677
+2025-08-15 01:35:47,686 - INFO -   Processed DICOM files: 1354
+2025-08-15 01:35:47,686 - INFO -   Expected after split: 1354
+2025-08-15 01:35:47,686 - INFO -   Match: ✓
+2025-08-15 01:35:47,686 - INFO - 
+=== Processing Patient: VH053 ===
+2025-08-15 01:35:47,802 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014081114185128100000281', '1.3.12.2.1107.5.1.4.48450.30000014081114185128100000494', '1.3.12.2.1107.5.1.4.48450.30000014081114291714000000005', '1.3.12.2.1107.5.1.4.48450.30000014081114310423400000043')
+2025-08-15 01:35:47,913 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014081114185128100000281: 212 files -> CT2
+2025-08-15 01:35:48,029 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014081114185128100000494: 1 files -> CT501
+2025-08-15 01:35:48,143 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014081114291714000000005: 1 files -> CT1
+2025-08-15 01:35:48,265 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014081114310423400000043: 641 files -> CT3
+2025-08-15 01:35:48,265 - INFO - 
+Processing phase: CT2 (212 files)
+2025-08-15 01:35:48,386 - INFO - Loaded image: (512, 512, 212) voxels
+2025-08-15 01:35:48,386 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:48,405 - INFO - Original image shape: (212, 512, 512)
+2025-08-15 01:35:48,405 - INFO - Left shape: (212, 512, 256), Right shape: (212, 512, 256)
+2025-08-15 01:35:48,453 - INFO - Saving 212 slices for VH053 CT2 left
+2025-08-15 01:35:48,454 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,090 - INFO - Saved 212 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_left/CT2
+2025-08-15 01:35:49,090 - INFO - Saving 212 slices for VH053 CT2 right
+2025-08-15 01:35:49,090 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,681 - INFO - Saved 212 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_right/CT2
+2025-08-15 01:35:49,681 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:49,684 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:49,684 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:49,684 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:49,684 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:49,684 - INFO - Saving 1 slices for VH053 CT501 left
+2025-08-15 01:35:49,684 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,688 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_left/CT501
+2025-08-15 01:35:49,688 - INFO - Saving 1 slices for VH053 CT501 right
+2025-08-15 01:35:49,688 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,691 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_right/CT501
+2025-08-15 01:35:49,691 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:49,693 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:49,693 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:49,693 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:49,693 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:49,694 - INFO - Saving 1 slices for VH053 CT1 left
+2025-08-15 01:35:49,694 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,697 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_left/CT1
+2025-08-15 01:35:49,697 - INFO - Saving 1 slices for VH053 CT1 right
+2025-08-15 01:35:49,697 - INFO - Extracting metadata from image
+2025-08-15 01:35:49,700 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_right/CT1
+2025-08-15 01:35:49,700 - INFO - 
+Processing phase: CT3 (641 files)
+2025-08-15 01:35:50,047 - INFO - Loaded image: (512, 512, 641) voxels
+2025-08-15 01:35:50,047 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:50,114 - INFO - Original image shape: (641, 512, 512)
+2025-08-15 01:35:50,114 - INFO - Left shape: (641, 512, 256), Right shape: (641, 512, 256)
+2025-08-15 01:35:50,217 - INFO - Saving 641 slices for VH053 CT3 left
+2025-08-15 01:35:50,217 - INFO - Extracting metadata from image
+2025-08-15 01:35:51,951 - INFO - Saved 641 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_left/CT3
+2025-08-15 01:35:51,952 - INFO - Saving 641 slices for VH053 CT3 right
+2025-08-15 01:35:51,952 - INFO - Extracting metadata from image
+2025-08-15 01:35:53,674 - INFO - Saved 641 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/VH053_right/CT3
+2025-08-15 01:35:53,675 - INFO - Validation for VH053:
+2025-08-15 01:35:53,675 - INFO -   Original DICOM files: 855
+2025-08-15 01:35:53,675 - INFO -   Processed DICOM files: 1710
+2025-08-15 01:35:53,675 - INFO -   Expected after split: 1710
+2025-08-15 01:35:53,675 - INFO -   Match: ✓
+2025-08-15 01:35:53,675 - INFO - 
+=== Processing Patient: RT023 ===
+2025-08-15 01:35:53,753 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000013112114163757800000337', '1.3.12.2.1107.5.1.4.48450.30000013112114163757800000520', '1.3.12.2.1107.5.1.4.48450.30000013112114264279600000011', '1.3.12.2.1107.5.1.4.48450.30000013112114541270300000098')
+2025-08-15 01:35:53,831 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112114163757800000337: 182 files -> CT2
+2025-08-15 01:35:53,920 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112114163757800000520: 1 files -> CT501
+2025-08-15 01:35:54,010 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112114264279600000011: 1 files -> CT1
+2025-08-15 01:35:54,094 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013112114541270300000098: 415 files -> CT3
+2025-08-15 01:35:54,095 - INFO - 
+Processing phase: CT2 (182 files)
+2025-08-15 01:35:54,186 - INFO - Loaded image: (512, 512, 182) voxels
+2025-08-15 01:35:54,186 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:54,201 - INFO - Original image shape: (182, 512, 512)
+2025-08-15 01:35:54,202 - INFO - Left shape: (182, 512, 256), Right shape: (182, 512, 256)
+2025-08-15 01:35:54,226 - INFO - Saving 182 slices for RT023 CT2 left
+2025-08-15 01:35:54,226 - INFO - Extracting metadata from image
+2025-08-15 01:35:54,713 - INFO - Saved 182 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_left/CT2
+2025-08-15 01:35:54,714 - INFO - Saving 182 slices for RT023 CT2 right
+2025-08-15 01:35:54,714 - INFO - Extracting metadata from image
+2025-08-15 01:35:55,201 - INFO - Saved 182 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_right/CT2
+2025-08-15 01:35:55,201 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:55,203 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:55,203 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:55,203 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:55,204 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:55,204 - INFO - Saving 1 slices for RT023 CT501 left
+2025-08-15 01:35:55,204 - INFO - Extracting metadata from image
+2025-08-15 01:35:55,207 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_left/CT501
+2025-08-15 01:35:55,207 - INFO - Saving 1 slices for RT023 CT501 right
+2025-08-15 01:35:55,207 - INFO - Extracting metadata from image
+2025-08-15 01:35:55,210 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_right/CT501
+2025-08-15 01:35:55,210 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:35:55,211 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:55,211 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:55,211 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:55,211 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:55,212 - INFO - Saving 1 slices for RT023 CT1 left
+2025-08-15 01:35:55,212 - INFO - Extracting metadata from image
+2025-08-15 01:35:55,215 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_left/CT1
+2025-08-15 01:35:55,215 - INFO - Saving 1 slices for RT023 CT1 right
+2025-08-15 01:35:55,215 - INFO - Extracting metadata from image
+2025-08-15 01:35:55,218 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_right/CT1
+2025-08-15 01:35:55,218 - INFO - 
+Processing phase: CT3 (415 files)
+2025-08-15 01:35:55,448 - INFO - Loaded image: (512, 512, 415) voxels
+2025-08-15 01:35:55,448 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:55,495 - INFO - Original image shape: (415, 512, 512)
+2025-08-15 01:35:55,495 - INFO - Left shape: (415, 512, 256), Right shape: (415, 512, 256)
+2025-08-15 01:35:55,564 - INFO - Saving 415 slices for RT023 CT3 left
+2025-08-15 01:35:55,564 - INFO - Extracting metadata from image
+2025-08-15 01:35:56,777 - INFO - Saved 415 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_left/CT3
+2025-08-15 01:35:56,777 - INFO - Saving 415 slices for RT023 CT3 right
+2025-08-15 01:35:56,777 - INFO - Extracting metadata from image
+2025-08-15 01:35:57,934 - INFO - Saved 415 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RT023_right/CT3
+2025-08-15 01:35:57,935 - INFO - Validation for RT023:
+2025-08-15 01:35:57,935 - INFO -   Original DICOM files: 599
+2025-08-15 01:35:57,935 - INFO -   Processed DICOM files: 1198
+2025-08-15 01:35:57,935 - INFO -   Expected after split: 1198
+2025-08-15 01:35:57,935 - INFO -   Match: ✓
+2025-08-15 01:35:57,936 - INFO - 
+=== Processing Patient: TW055 ===
+2025-08-15 01:35:58,010 - INFO - Found 3 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014091114122626500000466', '1.3.12.2.1107.5.1.4.48450.30000014091114122626500000644', '1.3.12.2.1107.5.1.4.48450.30000014091114515753100000630')
+2025-08-15 01:35:58,087 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014091114122626500000466: 55 files -> CT2
+2025-08-15 01:35:58,159 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014091114122626500000644: 1 files -> CT501
+2025-08-15 01:35:58,246 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014091114515753100000630: 514 files -> CT3
+2025-08-15 01:35:58,246 - INFO - 
+Processing phase: CT2 (55 files)
+2025-08-15 01:35:58,284 - INFO - Loaded image: (512, 512, 55) voxels
+2025-08-15 01:35:58,284 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:58,290 - INFO - Original image shape: (55, 512, 512)
+2025-08-15 01:35:58,290 - INFO - Left shape: (55, 512, 256), Right shape: (55, 512, 256)
+2025-08-15 01:35:58,297 - INFO - Saving 55 slices for TW055 CT2 left
+2025-08-15 01:35:58,297 - INFO - Extracting metadata from image
+2025-08-15 01:35:58,512 - INFO - Saved 55 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_left/CT2
+2025-08-15 01:35:58,512 - INFO - Saving 55 slices for TW055 CT2 right
+2025-08-15 01:35:58,512 - INFO - Extracting metadata from image
+2025-08-15 01:35:58,659 - INFO - Saved 55 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_right/CT2
+2025-08-15 01:35:58,659 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:35:58,662 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:35:58,662 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:58,662 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:35:58,662 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:35:58,662 - INFO - Saving 1 slices for TW055 CT501 left
+2025-08-15 01:35:58,662 - INFO - Extracting metadata from image
+2025-08-15 01:35:58,665 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_left/CT501
+2025-08-15 01:35:58,665 - INFO - Saving 1 slices for TW055 CT501 right
+2025-08-15 01:35:58,665 - INFO - Extracting metadata from image
+2025-08-15 01:35:58,668 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_right/CT501
+2025-08-15 01:35:58,668 - INFO - 
+Processing phase: CT3 (514 files)
+2025-08-15 01:35:58,949 - INFO - Loaded image: (512, 512, 514) voxels
+2025-08-15 01:35:58,949 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:35:59,000 - INFO - Original image shape: (514, 512, 512)
+2025-08-15 01:35:59,000 - INFO - Left shape: (514, 512, 256), Right shape: (514, 512, 256)
+2025-08-15 01:35:59,096 - INFO - Saving 514 slices for TW055 CT3 left
+2025-08-15 01:35:59,096 - INFO - Extracting metadata from image
+2025-08-15 01:36:00,510 - INFO - Saved 514 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_left/CT3
+2025-08-15 01:36:00,511 - INFO - Saving 514 slices for TW055 CT3 right
+2025-08-15 01:36:00,511 - INFO - Extracting metadata from image
+2025-08-15 01:36:01,895 - INFO - Saved 514 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/TW055_right/CT3
+2025-08-15 01:36:01,896 - INFO - Validation for TW055:
+2025-08-15 01:36:01,896 - INFO -   Original DICOM files: 570
+2025-08-15 01:36:01,896 - INFO -   Processed DICOM files: 1140
+2025-08-15 01:36:01,896 - INFO -   Expected after split: 1140
+2025-08-15 01:36:01,896 - INFO -   Match: ✓
+2025-08-15 01:36:01,896 - INFO - 
+=== Processing Patient: RG018 ===
+2025-08-15 01:36:01,990 - INFO - Found 2 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000013120914102979600000631', '1.3.12.2.1107.5.1.4.48450.30000013120914511550000001089')
+2025-08-15 01:36:02,082 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013120914102979600000631: 177 files -> CT2
+2025-08-15 01:36:02,176 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000013120914511550000001089: 538 files -> CT3
+2025-08-15 01:36:02,176 - INFO - 
+Processing phase: CT2 (177 files)
+2025-08-15 01:36:02,273 - INFO - Loaded image: (512, 512, 177) voxels
+2025-08-15 01:36:02,273 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:02,292 - INFO - Original image shape: (177, 512, 512)
+2025-08-15 01:36:02,292 - INFO - Left shape: (177, 512, 256), Right shape: (177, 512, 256)
+2025-08-15 01:36:02,318 - INFO - Saving 177 slices for RG018 CT2 left
+2025-08-15 01:36:02,318 - INFO - Extracting metadata from image
+2025-08-15 01:36:02,799 - INFO - Saved 177 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RG018_left/CT2
+2025-08-15 01:36:02,800 - INFO - Saving 177 slices for RG018 CT2 right
+2025-08-15 01:36:02,800 - INFO - Extracting metadata from image
+2025-08-15 01:36:03,281 - INFO - Saved 177 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RG018_right/CT2
+2025-08-15 01:36:03,281 - INFO - 
+Processing phase: CT3 (538 files)
+2025-08-15 01:36:03,571 - INFO - Loaded image: (512, 512, 538) voxels
+2025-08-15 01:36:03,573 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:03,627 - INFO - Original image shape: (538, 512, 512)
+2025-08-15 01:36:03,627 - INFO - Left shape: (538, 512, 256), Right shape: (538, 512, 256)
+2025-08-15 01:36:03,724 - INFO - Saving 538 slices for RG018 CT3 left
+2025-08-15 01:36:03,724 - INFO - Extracting metadata from image
+2025-08-15 01:36:05,155 - INFO - Saved 538 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RG018_left/CT3
+2025-08-15 01:36:05,155 - INFO - Saving 538 slices for RG018 CT3 right
+2025-08-15 01:36:05,155 - INFO - Extracting metadata from image
+2025-08-15 01:36:06,595 - INFO - Saved 538 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/RG018_right/CT3
+2025-08-15 01:36:06,597 - INFO - Validation for RG018:
+2025-08-15 01:36:06,597 - INFO -   Original DICOM files: 715
+2025-08-15 01:36:06,597 - INFO -   Processed DICOM files: 1430
+2025-08-15 01:36:06,597 - INFO -   Expected after split: 1430
+2025-08-15 01:36:06,597 - INFO -   Match: ✓
+2025-08-15 01:36:06,597 - INFO - 
+=== Processing Patient: SL015 ===
+2025-08-15 01:36:06,697 - INFO - Found 4 series IDs: ('1.3.12.2.1107.5.1.4.48450.30000014022014150546800000472', '1.3.12.2.1107.5.1.4.48450.30000014022014150546800000641', '1.3.12.2.1107.5.1.4.48450.30000014022014255670300000014', '1.3.12.2.1107.5.1.4.48450.30000014022014271668700000642')
+2025-08-15 01:36:06,788 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014022014150546800000472: 168 files -> CT2
+2025-08-15 01:36:06,873 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014022014150546800000641: 1 files -> CT501
+2025-08-15 01:36:06,963 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014022014255670300000014: 1 files -> CT1
+2025-08-15 01:36:07,051 - INFO - Series 1.3.12.2.1107.5.1.4.48450.30000014022014271668700000642: 509 files -> CT3
+2025-08-15 01:36:07,051 - INFO - 
+Processing phase: CT2 (168 files)
+2025-08-15 01:36:07,139 - INFO - Loaded image: (512, 512, 168) voxels
+2025-08-15 01:36:07,139 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:07,158 - INFO - Original image shape: (168, 512, 512)
+2025-08-15 01:36:07,158 - INFO - Left shape: (168, 512, 256), Right shape: (168, 512, 256)
+2025-08-15 01:36:07,190 - INFO - Saving 168 slices for SL015 CT2 left
+2025-08-15 01:36:07,191 - INFO - Extracting metadata from image
+2025-08-15 01:36:07,676 - INFO - Saved 168 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_left/CT2
+2025-08-15 01:36:07,676 - INFO - Saving 168 slices for SL015 CT2 right
+2025-08-15 01:36:07,676 - INFO - Extracting metadata from image
+2025-08-15 01:36:08,138 - INFO - Saved 168 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_right/CT2
+2025-08-15 01:36:08,138 - INFO - 
+Processing phase: CT501 (1 files)
+2025-08-15 01:36:08,140 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:36:08,140 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:08,140 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:36:08,140 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:36:08,141 - INFO - Saving 1 slices for SL015 CT501 left
+2025-08-15 01:36:08,141 - INFO - Extracting metadata from image
+2025-08-15 01:36:08,144 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_left/CT501
+2025-08-15 01:36:08,144 - INFO - Saving 1 slices for SL015 CT501 right
+2025-08-15 01:36:08,144 - INFO - Extracting metadata from image
+2025-08-15 01:36:08,147 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_right/CT501
+2025-08-15 01:36:08,147 - INFO - 
+Processing phase: CT1 (1 files)
+2025-08-15 01:36:08,149 - INFO - Loaded image: (512, 512, 1) voxels
+2025-08-15 01:36:08,149 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:08,149 - INFO - Original image shape: (1, 512, 512)
+2025-08-15 01:36:08,149 - INFO - Left shape: (1, 512, 256), Right shape: (1, 512, 256)
+2025-08-15 01:36:08,149 - INFO - Saving 1 slices for SL015 CT1 left
+2025-08-15 01:36:08,149 - INFO - Extracting metadata from image
+2025-08-15 01:36:08,153 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_left/CT1
+2025-08-15 01:36:08,153 - INFO - Saving 1 slices for SL015 CT1 right
+2025-08-15 01:36:08,153 - INFO - Extracting metadata from image
+2025-08-15 01:36:08,157 - INFO - Saved 1 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_right/CT1
+2025-08-15 01:36:08,157 - INFO - 
+Processing phase: CT3 (509 files)
+2025-08-15 01:36:08,432 - INFO - Loaded image: (512, 512, 509) voxels
+2025-08-15 01:36:08,432 - INFO - Splitting DICOM image into left and right halves
+2025-08-15 01:36:08,481 - INFO - Original image shape: (509, 512, 512)
+2025-08-15 01:36:08,481 - INFO - Left shape: (509, 512, 256), Right shape: (509, 512, 256)
+2025-08-15 01:36:08,607 - INFO - Saving 509 slices for SL015 CT3 left
+2025-08-15 01:36:08,608 - INFO - Extracting metadata from image
+2025-08-15 01:36:10,043 - INFO - Saved 509 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_left/CT3
+2025-08-15 01:36:10,043 - INFO - Saving 509 slices for SL015 CT3 right
+2025-08-15 01:36:10,043 - INFO - Extracting metadata from image
+2025-08-15 01:36:11,445 - INFO - Saved 509 slices to /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/SL015_right/CT3
+2025-08-15 01:36:11,446 - INFO - Validation for SL015:
+2025-08-15 01:36:11,447 - INFO -   Original DICOM files: 679
+2025-08-15 01:36:11,447 - INFO -   Processed DICOM files: 1358
+2025-08-15 01:36:11,447 - INFO -   Expected after split: 1358
+2025-08-15 01:36:11,447 - INFO -   Match: ✓
+2025-08-15 01:36:11,447 - INFO - 
+=== Processing Complete ===
+2025-08-15 01:36:11,447 - INFO - Total patients: 11
+2025-08-15 01:36:11,447 - INFO - Successful: 11
+2025-08-15 01:36:11,447 - INFO - Failed: 0
+2025-08-15 01:36:11,447 - INFO - Validation passed: 11
+2025-08-15 01:36:11,447 - INFO - Summary saved to: /home/pramananda/working_dir/qct-medical-image-auto-annotation/dataset/femur-bone/data/ct/processing_summary.json
