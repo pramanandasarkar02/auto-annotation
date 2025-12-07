@@ -1,3 +1,6 @@
 dataset/
 models/
 env/
+# Explicitly recursive
+**/*.ipynb
+dataset.zip
